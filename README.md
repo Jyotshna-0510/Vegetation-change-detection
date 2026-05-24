@@ -101,7 +101,8 @@ Vegetation-change-detection/
 ![Dashboard](https://github.com/user-attachments/assets/288b64fe-aabe-4571-b46e-4049140b8715)
 
 ### TIFF Image Upload
-![Upload Interface](https://github.com/user-attachments/assets/c65abaae-0f3a-4e6e-8a37-41a84304e3cf)
+![Upload Interface](https://github.com/user-attachments/assets/8760d603-68fb-4c13-9810-37aaa2f7164b
+)
 
 ### 2D Vegetation Change Detection
 ![2D Output](https://github.com/user-attachments/assets/c108a60f-0b67-4f2a-9936-4ecba56b6592)
@@ -123,6 +124,14 @@ Vegetation-change-detection/
 - Real-time satellite data integration
 - Advanced segmentation models
 - Multi-class land-cover detection
+
+---
+
+## Dataset
+The dataset used in this project consists of multitemporal TIFF satellite images.
+
+Due to large file size limitations, the dataset is not uploaded to this repository.  
+Dataset access can be provided upon request for academic and research purposes.
 
 ---
 
