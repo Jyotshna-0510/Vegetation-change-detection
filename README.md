@@ -55,15 +55,13 @@ cd Vegetation-change-detection
 
 ### Install Dependencies
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### Run Application
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
-
----
 
 ## Project Structure
 ```text
