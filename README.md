@@ -1,7 +1,7 @@
 # Automated Vegetation Monitoring using Multitemporal Satellite Images
 
 ## Overview
-This project focuses on automated vegetation monitoring and change detection using multitemporal satellite TIFF imagery and a deep learning-based CF-HGNN-DP model. The system analyzes vegetation variations across different time periods using NDVI computation, change detection techniques, and interactive visualizations through a Streamlit web application.
+This project focuses on automated vegetation monitoring and change detection using multitemporal satellite TIFF imagery and a deep learning-based CF-HGNN-DP model. The system analyzes vegetation variations across different time periods using vegetation change detection techniques and interactive visualizations through a Streamlit web application.
 
 The project helps in monitoring environmental changes, vegetation growth, land-cover transformation, and ecological variations using remote sensing data.
 
@@ -10,13 +10,13 @@ The project helps in monitoring environmental changes, vegetation growth, land-c
 ## Features
 - Multitemporal TIFF satellite image processing
 - Automated vegetation monitoring
-- NDVI (Normalized Difference Vegetation Index) analysis
 - Vegetation gain and loss detection
 - Deep learning-based prediction using CF-HGNN-DP
 - Interactive Streamlit web application
 - 2D vegetation change maps
 - 3D terrain and vegetation visualization
-- Real-time visualization and analysis
+- Performance metrics visualization
+- Real-time vegetation analysis
 
 ---
 
@@ -63,6 +63,8 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
+---
+
 ## Project Structure
 ```text
 Vegetation-change-detection/
@@ -80,16 +82,38 @@ Vegetation-change-detection/
 ## Input Data
 - Multitemporal TIFF satellite images
 - Remote sensing vegetation datasets
-- NDVI-based preprocessing inputs
+- Vegetation preprocessing inputs
 
 ---
 
 ## Output Visualizations
-- NDVI Maps
-- Vegetation Gain/Loss Maps
-- Heatmaps
-- 3D Surface Visualization
-- Change Detection Results
+- 2D Vegetation Change Maps
+- 3D Vegetation Visualization
+- Performance Metrics
+- Vegetation Gain/Loss Analysis
+- No Change Percentage Analysis
+
+---
+
+## Screenshots
+
+### Dashboard Interface
+![Dashboard](https://github.com/user-attachments/assets/288b64fe-aabe-4571-b46e-4049140b8715)
+
+### TIFF Image Upload
+![Upload Interface](https://github.com/user-attachments/assets/c65abaae-0f3a-4e6e-8a37-41a84304e3cf)
+
+### 2D Vegetation Change Detection
+![2D Output](https://github.com/user-attachments/assets/c108a60f-0b67-4f2a-9936-4ecba56b6592)
+
+### 3D Vegetation Visualization
+![3D Visualization](https://github.com/user-attachments/assets/d1f969ee-4913-48b8-8b2e-9e7fa9dd2b13)
+
+### Performance Metrics
+![Performance Metrics](https://github.com/user-attachments/assets/85c6a83f-48c7-4928-966d-8843474f8c8e)
+
+### Vegetation Gain, Loss and No Change Analysis
+![Vegetation Analysis](https://github.com/user-attachments/assets/219a8199-4da8-4832-9c42-3ebc06bdcb4d)
 
 ---
 
@@ -103,7 +127,7 @@ Vegetation-change-detection/
 ---
 
 ## Author
-**Jyotshna**  
+**Gummadi Jyotshna**  
 B.Tech Computer Science Engineering in AIML
 
 ---
